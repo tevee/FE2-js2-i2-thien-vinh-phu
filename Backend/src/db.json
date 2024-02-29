@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": "7f725bb5-30f9-47f6-b0a4-3b7c23834bb9",
+      "task": "plugga",
+      "category": "dev frontend",
+      "status": "in progress",
+      "assigned": "none"
+    },
+    {
+      "id": "5fb8cf11-c005-4510-85a0-0a4d43accf5e",
+      "task": "sova",
+      "category": "dev frontend",
+      "status": "to do",
+      "assigned": "none"
+    }
+  ]
+}
