@@ -26,10 +26,13 @@ async function addTask(task) {
     return newTask
 }
 
-async function updateStatus(id, newStatus) {
+async function updateTask(id, newStatus, newAssigned) {
     const tasks = await getTasks()
     const task = tasks.find(task => task.id == id)
     task.status = newStatus
+    if(newAssigned !== undefined) {
+        task.assigned = newAssigned
+    }
 
     const newDB = {tasks}
     await writeDB(newDB)
@@ -54,4 +57,4 @@ async function removeTask(id) {
     return task
 }
 
-export {getTasks, addTask, updateStatus, removeTask}
+export {getTasks, addTask, updateTask, removeTask}

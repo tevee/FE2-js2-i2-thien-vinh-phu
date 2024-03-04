@@ -1,6 +1,6 @@
 import {Router} from "express"
 import { taskValidation } from "./validation.js"
-import { getTasks, addTask, updateStatus, removeTask } from "./handledb.js"
+import { getTasks, addTask, updateTask, removeTask } from "./handledb.js"
 
 const taskRouter = Router()
 
@@ -22,8 +22,8 @@ taskRouter.post('/', taskValidation.body, async (req, res) => {
     }
 })
 
-taskRouter.patch('/updatestatus/:id', async (req, res) => {
-    updateStatus(req.params.id, req.body.status).then(task => {
+taskRouter.patch('/updatetask/:id', async (req, res) => {
+    updateTask(req.params.id, req.body.status, req.body.assigned).then(task => {
         if(task) res.json(task)
         else {
             res.status(404)
@@ -32,7 +32,7 @@ taskRouter.patch('/updatestatus/:id', async (req, res) => {
     })
 })
 
-taskRouter.delete('/remove/:id', async (req, res) => {
+taskRouter.delete('/removetask/:id', async (req, res) => {
     await removeTask(req.params.id).then(task => {
         if(task) res.json({task, message: 'removed'})
         else {

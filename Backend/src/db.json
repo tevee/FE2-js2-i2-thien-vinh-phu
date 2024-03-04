@@ -1,18 +1,60 @@
 {
   "tasks": [
     {
-      "id": "7f725bb5-30f9-47f6-b0a4-3b7c23834bb9",
-      "task": "plugga",
-      "category": "dev frontend",
-      "status": "in progress",
-      "assigned": "none"
+      "id": "b0f79dc4-0b13-49fe-b380-915b47ada40a",
+      "status": "done",
+      "assigned": "Thien",
+      "task": "ett till test",
+      "category": "dev frontend"
     },
     {
-      "id": "5fb8cf11-c005-4510-85a0-0a4d43accf5e",
-      "task": "sova",
-      "category": "dev frontend",
+      "id": "f6cf9b01-6519-4250-9045-8e521b8a776d",
+      "status": "in progress",
+      "assigned": "Thien",
+      "task": "fortsätt jobba på inlämingsuppiften",
+      "category": "dev frontend"
+    },
+    {
+      "id": "692aa62a-9790-4f88-9389-c6b2fd7eddba",
       "status": "to do",
-      "assigned": "none"
+      "assigned": "none",
+      "task": "Designa webbsidan",
+      "category": "ux"
+    },
+    {
+      "id": "458b5612-58a7-40b1-b54b-97cef573b7c6",
+      "status": "in progress",
+      "assigned": "Thien",
+      "task": "plugga",
+      "category": "dev frontend"
+    },
+    {
+      "id": "c0ab4db9-b058-4c02-a37b-356cbd02456e",
+      "status": "in progress",
+      "assigned": "Thien",
+      "task": "Fix error handling",
+      "category": "dev frontend"
+    },
+    {
+      "id": "1cb4ea43-0f01-49e0-b67c-709970b91239",
+      "status": "in progress",
+      "assigned": "Thien",
+      "task": "Fix error handling",
+      "category": "dev backend"
+    },
+    {
+      "id": "781c00f8-df90-4bed-84d8-d02fcf37e910",
+      "status": "to do",
+      "assigned": "none",
+      "task": "Fråga om hjälp under handledning (tisdag)",
+      "category": "dev frontend"
+    },
+    {
+      "id": "dbe0e749-9b64-4350-971c-63a315bb21fe",
+      "status": "done",
+      "assigned": "UX Designer",
+      "task": "Hitta färger",
+      "category": "ux"
     }
   ]
 }

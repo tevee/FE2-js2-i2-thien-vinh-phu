@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="header">
+            <h2>Scrum Board</h2>
+            <form id="taskForm">
+                <input type="text" id="" name="task" placeholder="Enter task" required>
+                <select name="category" id="">
+                    <option value="dev frontend">Dev Frontend</option>
+                    <option value="dev backend">Dev Backend</option>
+                    <option value="ux">UX</option>
+                    <button class="form-button">Add</button>
+                </select>
+                <div class="category-container">
+                    <div class="ux category">UX</div>
+                    <div class="backend category">dev backend</div>
+                    <div class="frontend category">dev frontend</div>
+                </div>
+            </form>
+        </div>
+        <div id="scrumBoard">
+            <div id="toDo" class="scrumBoard-item"></div>
+            <div id="inProgress" class="scrumBoard-item"></div>
+            <div id="done" class="scrumBoard-item"></div>
+        </div>
+    </main>
+</body>
+</html>
