@@ -16,8 +16,8 @@ function displayToDo(tasks) {
         createAndAppend('p', task.task, card)
 
         const form = createAndAppend('form', '', card)
-        createAndAppend('input', '', form).placeholder = 'Enter name'
-        createAndAppend('button', 'Assign >>', form).classList.add('form-button')
+        const input = createAndAppend('input', '', form)
+        const button = createAndAppend('button', 'Assign >>', form)
 
         let categoryName;
         if(task.category.includes('dev')) categoryName = task.category.slice(4)
@@ -26,6 +26,10 @@ function displayToDo(tasks) {
         card.id = task.id
         card.classList.add(categoryName, 'category')
         form.classList.add('to-do-form')
+        input.placeholder = 'Enter name'
+        input.setAttribute('required', '')
+        button.classList.add('form-button')
+        button.setAttribute('type', 'submit')
     }
 }
 

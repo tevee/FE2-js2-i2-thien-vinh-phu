@@ -36,6 +36,10 @@ scrumBoardEl.addEventListener('click', event => {
 
         if(target.tagName === 'BUTTON' && target.closest('#toDo')) {
             const toDoForm = target.closest('.to-do-form')
+            if(!toDoForm.reportValidity()) {
+                return;
+            }
+
             const assignedInput = toDoForm.querySelector('input').value
             let updatedTask = {
                 status: 'in progress',
@@ -50,7 +54,7 @@ scrumBoardEl.addEventListener('click', event => {
         }
         else if(target.tagName === 'BUTTON' && target.closest('#inProgress')) {
             let updatedStatus = {status: 'done'}
-
+            
             api.updateTask(id, updatedStatus).then(() => {
                 api.getTasks().then(displayScrumBoard)
             })

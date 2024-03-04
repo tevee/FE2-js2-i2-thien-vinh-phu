@@ -4,7 +4,7 @@ const header = {"Content-type": "application/json; charset=UTF-8"}
 async function getTasks() {
     const res = await fetch(baseUrl)
     const data = await res.json()
-    return data
+    return data;
 }
 
 async function addTask(task) {

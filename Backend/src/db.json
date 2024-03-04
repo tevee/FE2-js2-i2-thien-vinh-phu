@@ -1,13 +1,6 @@
 {
   "tasks": [
     {
-      "id": "b0f79dc4-0b13-49fe-b380-915b47ada40a",
-      "status": "done",
-      "assigned": "Thien",
-      "task": "ett till test",
-      "category": "dev frontend"
-    },
-    {
       "id": "f6cf9b01-6519-4250-9045-8e521b8a776d",
       "status": "in progress",
       "assigned": "Thien",
@@ -15,15 +8,8 @@
       "category": "dev frontend"
     },
     {
-      "id": "692aa62a-9790-4f88-9389-c6b2fd7eddba",
-      "status": "to do",
-      "assigned": "none",
-      "task": "Designa webbsidan",
-      "category": "ux"
-    },
-    {
       "id": "458b5612-58a7-40b1-b54b-97cef573b7c6",
-      "status": "in progress",
+      "status": "done",
       "assigned": "Thien",
       "task": "plugga",
       "category": "dev frontend"
@@ -44,8 +30,8 @@
     },
     {
       "id": "781c00f8-df90-4bed-84d8-d02fcf37e910",
-      "status": "to do",
-      "assigned": "none",
+      "status": "in progress",
+      "assigned": "",
       "task": "Fråga om hjälp under handledning (tisdag)",
       "category": "dev frontend"
     },
@@ -55,6 +41,13 @@
       "assigned": "UX Designer",
       "task": "Hitta färger",
       "category": "ux"
+    },
+    {
+      "id": "e48dbff5-0d02-4b96-b3be-d0358506cddd",
+      "status": "to do",
+      "assigned": "none",
+      "task": "test",
+      "category": "dev backend"
     }
   ]
 }
