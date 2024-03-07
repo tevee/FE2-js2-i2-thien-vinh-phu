@@ -43,7 +43,6 @@ async function updateTask(id, newStatus, newAssigned) {
 async function removeTask(id) {
     const tasks = await getTasks();
     let index;
-    console.log(tasks);
     const task = tasks.find((t, i) => {
         index = i;
         return t.id == id;

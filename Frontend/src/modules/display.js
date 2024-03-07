@@ -73,7 +73,7 @@ function displayDone(tasks) {
     }
 }
 
-export default function displayScrumBoard(tasks) {
+function displayScrumBoard(tasks) {
     const toDoTasks = tasks.filter((task) => task.status === 'to do')
     const inProgressTasks = tasks.filter((task) => task.status === 'in progress')
     const doneTasks = tasks.filter((task) => task.status === 'done')
@@ -82,3 +82,9 @@ export default function displayScrumBoard(tasks) {
     displayInProgress(inProgressTasks)
     displayDone(doneTasks)
 }
+
+function displayError(error) {
+    alert(error.message)
+}
+
+export {displayScrumBoard, displayError}

@@ -1,52 +1,52 @@
 {
   "tasks": [
     {
-      "id": "f6cf9b01-6519-4250-9045-8e521b8a776d",
-      "status": "in progress",
-      "assigned": "Thien",
-      "task": "fortsätt jobba på inlämingsuppiften",
-      "category": "dev frontend"
-    },
-    {
-      "id": "458b5612-58a7-40b1-b54b-97cef573b7c6",
-      "status": "done",
-      "assigned": "Thien",
-      "task": "plugga",
-      "category": "dev frontend"
-    },
-    {
-      "id": "c0ab4db9-b058-4c02-a37b-356cbd02456e",
+      "id": "33fd2b68-cabf-450e-9513-3d150dd2da2c",
       "status": "in progress",
       "assigned": "Thien",
       "task": "Fix error handling",
       "category": "dev frontend"
     },
     {
-      "id": "1cb4ea43-0f01-49e0-b67c-709970b91239",
+      "id": "6f32be28-a3bf-466a-ab13-66449967bc73",
       "status": "in progress",
       "assigned": "Thien",
       "task": "Fix error handling",
       "category": "dev backend"
     },
     {
-      "id": "781c00f8-df90-4bed-84d8-d02fcf37e910",
-      "status": "in progress",
-      "assigned": "",
-      "task": "Fråga om hjälp under handledning (tisdag)",
+      "id": "8205119c-a2fc-48ae-994f-d6978e06bdcb",
+      "status": "done",
+      "assigned": "Thien",
+      "task": "plugga",
       "category": "dev frontend"
     },
     {
-      "id": "dbe0e749-9b64-4350-971c-63a315bb21fe",
+      "id": "93aebe35-cad7-4773-9786-002ad1b5e424",
       "status": "done",
       "assigned": "UX Designer",
-      "task": "Hitta färger",
+      "task": "Fix design",
       "category": "ux"
     },
     {
-      "id": "e48dbff5-0d02-4b96-b3be-d0358506cddd",
+      "id": "7407a754-69d5-40dc-9fa1-1d665066067e",
+      "status": "done",
+      "assigned": "Thien",
+      "task": "Lämna in uppgiften",
+      "category": "dev frontend"
+    },
+    {
+      "id": "0bd762b8-8fba-4f6a-8ae5-0d248f0ae5c9",
       "status": "to do",
       "assigned": "none",
-      "task": "test",
+      "task": "Tvätta kläder 17:00",
+      "category": "dev frontend"
+    },
+    {
+      "id": "c5616d37-de2e-46ab-bba3-98cd3b513924",
+      "status": "to do",
+      "assigned": "none",
+      "task": "Sova",
       "category": "dev backend"
     }
   ]

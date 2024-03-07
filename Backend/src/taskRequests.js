@@ -1,13 +1,16 @@
 import {Router} from "express"
-import { taskValidation } from "./validation.js"
+import { taskValidation } from "./validator.js"
 import { getTasks, addTask, updateTask, removeTask } from "./handledb.js"
 
 const taskRouter = Router()
 
 taskRouter.get('/', async (req, res) => {
     getTasks().then(task => {
-        res.json(task)
-        console.log(task);
+        if(task) res.json(task)
+        else {
+            res.status(404)
+            res.json({message: 'Task not found'})
+        }
     })
 })
 
